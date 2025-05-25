@@ -1,16 +1,39 @@
-# khazana
+# 📈 Dhansaarathi
 
-A new Flutter project.
+Dhansaarathi is a Flutter 3.32-based mobile application that allows users to track and analyze mutual funds, manage multiple watchlists, and securely authenticate via phone number using Supabase with Twilio Verify.
 
-## Getting Started
+## Testing Creds
 
-This project is a starting point for a Flutter application.
+Phone: 9175538646
+OTP: 123456
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔐 Phone authentication using Supabase + Twilio Verify
+- 📊 Mutual fund performance charts using FL Chart
+- 📌 Multiple watchlists with local (offline) persistence
+- 💾 Fund IDs stored in SharedPreferences
+- 🎯 Optimized navigation and real-time updates
+
+---
+
+## 🛠 Tech Stack
+
+| Layer            | Technology            |
+| ---------------- | --------------------- |
+| Framework        | Flutter 3.32 (Stable) |
+| State Management | Cubit / BLoC          |
+| Auth & Backend   | Supabase + Twilio     |
+| Local Storage    | SharedPreferences     |
+| Charts           | FL Chart              |
+
+---
+
+## 🔧 Project Setup
+
+### 1. Clone the Repository
+
+git clone <your-repo-url>
+cd dhansaarathi
